@@ -19,6 +19,7 @@ body {
     padding: 20px;
     width: 300px;
     transition: transform 0.2s;
+    
 }
 
 .cartao:hover {
@@ -61,7 +62,7 @@ footer {
     }
 
     .cartao {
-        width: 90%;
+        width: 70%;
     }
 }
 
@@ -74,15 +75,15 @@ footer {
     }
 
     .cartao__conteudo h3 {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 
     .cartao__conteudo__pergunta {
-        font-size: 1.2em;
+        font-size: 2.2em;
     }
 
     .cartao__conteudo__resposta {
-        font-size: 1em;
+        font-size: 2em;
     }
 }
 
