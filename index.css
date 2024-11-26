@@ -67,7 +67,10 @@ footer {
 
 @media (max-width: 480px) {
     .cartao {
+        width: 80%;
+        height: 15%;
         padding: 15px;
+        
     }
 
     .cartao__conteudo h3 {
