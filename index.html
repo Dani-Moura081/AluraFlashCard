@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Flashcard</title>
+</head>
+<body>
+    <main>
+        <section id="container">
+            
+        </section>
+    </main>
+    <footer>
+        <p>Projeto desenvolvido com base no curso Alura</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="perguntas.js"></script>
+    <script>
+        function toggleResposta(perguntaElement) {
+            const respostaElement = perguntaElement.nextElementSibling; // Seleciona o próximo elemento (resposta)
+            if (respostaElement.style.display === "none" || respostaElement.style.display === "") {
+                respostaElement.style.display = "block"; // Exibe a resposta
+            } else {
+                respostaElement.style.display = "none"; // Oculta a resposta
+            }
+        }
+    </script>
+</body>
+</html>
